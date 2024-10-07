@@ -1,1 +1,1 @@
-This serves an assignment to my course subject CC22 - Platform Technologies
+This serves as my output for CIT14 - Web Technology
