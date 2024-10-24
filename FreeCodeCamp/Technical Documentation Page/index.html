@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Build a PC</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <header>PC Building Guide</header>
+        <p>By Ralph Lee</p>
+        <a class="nav-link" href="#Introduction">Introduction</a>
+        <a class="nav-link" href="#Choosing_the_Components">Choosing the Components</a>
+        <a class="nav-link" href="#Assembly">Assembly</a>
+        <a class="nav-link" href="#BIOS_and_OS_Installation">BIOS and OS Installation</a>
+        <a class="nav-link" href="#Final_Tips">Final Tips</a>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <p>Building a PC may seem hard, but with the right guide, it becomes an exciting journey.</p>
+            <p>This guide will walk you through the essential steps of building your own computer.</p>
+            <code>let buildPCGuide = "Follow these steps for a successful PC build.";</code>
+        </section>
+        <section class="main-section" id="Choosing_the_Components">
+            <header>Choosing the Components</header>
+            <p>Choosing the right components is critical to your PC's performance and longevity. Here are the key components you need:</p>
+            <ul>
+                <li>Processor (CPU)</li>
+                <li>Motherboard</li>
+                <li>Memory (RAM)</li>
+                <li>Storage (SSD/HDD)</li>
+                <li>Graphics Card (GPU)</li>
+                <li>Power Supply (PSU)</li>
+                <li>Case</li>
+                <li>Cooling System</li>
+            </ul>
+            <p>When selecting these components, consider compatibility and your specific needs, such as gaming, video editing, or general use.</p>
+            <p>Ensure that your chosen motherboard supports the CPU you plan to use. This is crucial for system stability.</p>
+            <code>let compatibilityCheck = (cpu, motherboard) => { return cpu.socket === motherboard.socket; }</code>
+        </section>
+        <section class="main-section" id="Assembly">
+            <header>Assembly</header>
+            <p>Assembling the PC involves several steps:</p>
+            <ol>
+                <li>Installing the CPU on the motherboard.</li>
+                <li>Mounting the motherboard inside the case.</li>
+                <li>Inserting the RAM into the motherboard slots.</li>
+                <li>Installing the storage devices.</li>
+                <li>Connecting the power supply to the motherboard and components.</li>
+                <li>Installing the GPU.</li>
+                <li>Connecting all necessary cables and managing cable organization.</li>
+            </ol>
+            <p>Ensure you follow safety measures such as grounding yourself to prevent static damage to sensitive components.</p>
+            <p>Before beginning, gather all necessary tools like screwdrivers, and read the manuals that come with your components.</p>
+            <code>// Example of grounding yourself
+const groundYourself = () => {
+    return "Touch an unpainted metal surface to discharge static electricity.";
+}</code>
+        </section>
+        <section class="main-section" id="BIOS_and_OS_Installation">
+            <header>BIOS and OS Installation</header>
+            <p>After assembling the hardware, the next step is to configure the BIOS and install an operating system:</p>
+            <ul>
+                <li>Power on the PC and enter the BIOS setup.</li>
+                <li>Configure boot sequence and other necessary settings.</li>
+                <li>Save changes and exit BIOS.</li>
+                <li>Insert the OS installation media (USB/DVD) and restart the PC.</li>
+                <li>Follow the on-screen instructions to install the OS.</li>
+            </ul>
+            <p>Configuring the BIOS involves setting the correct boot priority for your storage devices and enabling any necessary features like XMP profiles for RAM.</p>
+            <code>bootSequence = ["USB Drive", "SSD", "HDD"];</code>
+        </section>
+        <section class="main-section" id="Final_Tips">
+            <header>Final Tips</header>
+            <p>Here are some final tips to ensure your PC building experience is smooth:</p>
+            <ul>
+                <li>Double-check all connections before powering on the PC.</li>
+                <li>Keep your components' manuals handy for reference.</li>
+                <li>Take your time and work methodically to avoid mistakes.</li>
+                <li>Join PC building communities online for additional support and tips.</li>
+            </ul>
+            <p>Remember to update all drivers and perform a stress test to ensure system stability after assembly.</p>
+            <code>const updateDrivers = () => {
+    return "Visit your motherboard and GPU manufacturer's websites for the latest drivers.";
+}</code>
+        </section>
+    </main>
+</body>
+</html>
